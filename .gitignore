@@ -14,3 +14,6 @@ __pycache__/
 
 # Local operator state — not part of the plugin source
 ~/.claude/agency-starter/
+
+# Per-project Claude Code session data (transcripts, cache)
+.claude/
