@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Python build artifacts (used by the PDF build script when present)
+.venv*/
+__pycache__/
+*.pyc
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+
+# Local operator state — not part of the plugin source
+~/.claude/agency-starter/

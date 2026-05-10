@@ -1,0 +1,22 @@
+{
+  "name": "agency-starter",
+  "version": "0.3.0",
+  "description": "Claude ops layer for non-technical agencies. Self-serve onboarding via /start, /codify graduation loop turns operator sessions into reusable slash commands, /codify-agent turns clusters of commands into scheduled agents, /import-cowork bootstraps from past Claude Cowork history. Wires Notion + Slack + Gmail + Drive.",
+  "author": {
+    "name": "Bugra Kaan Ayaz",
+    "email": "bugra@foundby.me"
+  },
+  "homepage": "https://github.com/foundbyme/agency-starter",
+  "repository": "https://github.com/foundbyme/agency-starter",
+  "keywords": [
+    "agency",
+    "ops",
+    "notion",
+    "slack",
+    "gmail",
+    "orchestrator",
+    "non-technical",
+    "multi-language"
+  ],
+  "hooks": "./.claude-plugin/hooks.json"
+}
