@@ -8,14 +8,14 @@ You don't need to be technical. You'll never write code. The slash commands hand
 
 ## Step 1 — Install the plugin
 
-In **Claude Code desktop**:
+Open Claude Code and type these two commands in any chat:
 
-1. Open Settings → Plugins
-2. Click **Add plugin**
-3. Paste the install URL we sent you
-4. Click **Install**, then restart Claude Code
+```
+/plugin marketplace add kaanayaz/agency-starter
+/plugin install agency-starter@agency-starter
+```
 
-You should now see `agency-starter` in your plugins list.
+Then run `/reload-plugins` to activate. Verify by typing `/` and looking for `/start` in the autocomplete — if it shows up, you're set.
 
 ---
 
@@ -57,7 +57,7 @@ You can pause and resume at any time. Each command is idempotent — if you've a
 
 ## When something breaks
 
-Type `/setup-help`. It captures what you were doing and posts to our shared support channel. We typically respond within 4 working hours.
+Type `/setup-help`. It captures what you were doing and emails us from your own Gmail account. We typically respond within a working day.
 
 Don't paste any tokens or passwords into the chat — `/setup-help` strips those automatically, but the safer move is not to paste them in the first place.
 

@@ -1,0 +1,20 @@
+{
+  "name": "agency-starter",
+  "owner": {
+    "name": "Bugra Kaan Ayaz",
+    "email": "bugra@foundby.me"
+  },
+  "plugins": [
+    {
+      "name": "agency-starter",
+      "source": "./plugin",
+      "description": "Claude ops layer for non-technical agencies. Self-serve onboarding via /start, /codify graduation loop, /codify-agent for user-defined persona agents, /import-cowork for migrating past Cowork sessions. Wires Notion + Slack + Gmail + Drive.",
+      "version": "0.3.0",
+      "author": {
+        "name": "Bugra Kaan Ayaz",
+        "email": "bugra@foundby.me"
+      },
+      "homepage": "https://github.com/kaanayaz/agency-starter"
+    }
+  ]
+}
