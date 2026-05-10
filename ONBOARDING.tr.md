@@ -8,14 +8,19 @@ Teknik bilgi gerekmez. Asla kod yazmayacaksınız. Slash komutları her şeyi ha
 
 ## Adım 1 — Eklentiyi yükleyin
 
-Claude Code'u açın ve herhangi bir sohbette şu iki komutu yazın:
+Claude Code masaüstü uygulamasını açın. Herhangi bir sohbete şunu yapıştırın:
+
+> Lütfen `https://github.com/kaanayaz/agency-starter` adresini bir Claude Code marketplace olarak ekleyin ve oradan agency-starter eklentisini yükleyin.
+
+Claude yükleme izni isteyecek — **Allow**'a tıklayın. Onaylandığında, **Claude Code'u tamamen kapatıp yeniden açın** (Mac'te Cmd+Q, sonra tekrar açın). Yeni eklentinin temiz yüklenebilmesi için yeniden başlatma gereklidir.
+
+Claude Code tekrar açıldığında şunu yazın:
 
 ```
-/plugin marketplace add kaanayaz/agency-starter
-/plugin install agency-starter@agency-starter
+/start
 ```
 
-Ardından etkinleştirmek için `/reload-plugins` yazın. `/` yazıp otomatik tamamlamada `/start`'ı arayın — görünüyorsa, hazırsınız.
+`/start` bir kurulum kontrol listesi yazdırmalı. Yazıyorsa, hazırsınız. (Terminal yok, JSON düzenleme yok — yüklemeyi sizin için Claude halleder.)
 
 ---
 

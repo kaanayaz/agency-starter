@@ -8,14 +8,19 @@ You don't need to be technical. You'll never write code. The slash commands hand
 
 ## Step 1 — Install the plugin
 
-Open Claude Code and type these two commands in any chat:
+Open Claude Code desktop. In any chat, paste:
+
+> Please add `https://github.com/kaanayaz/agency-starter` as a Claude Code marketplace and install the agency-starter plugin from it.
+
+Claude will ask for permission to install — click **Allow**. After it confirms, **fully quit and restart Claude Code** (Cmd+Q on Mac, then reopen). The restart is needed for the new plugin to load cleanly.
+
+When Claude Code is back open, type:
 
 ```
-/plugin marketplace add kaanayaz/agency-starter
-/plugin install agency-starter@agency-starter
+/start
 ```
 
-Then run `/reload-plugins` to activate. Verify by typing `/` and looking for `/start` in the autocomplete — if it shows up, you're set.
+`/start` should print a setup checklist. If it does, you're set. (No Terminal, no JSON editing — Claude handles the install for you.)
 
 ---
 
